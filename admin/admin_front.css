@@ -1,0 +1,45 @@
+body{
+     height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/res.jpg);
+	background-size: cover;
+	background-position: center;
+    line-height: 50px;
+    text-align: center;
+}
+h2
+{
+    color: lightgrey;
+	font-size:50px;
+    text-align: center;
+    font-weight: 700;
+    font: arabic;
+    font-style: italic;
+}
+h4
+{
+    color: white;
+	font-size:35px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    font: arabic;
+    font-style: italic;
+}
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border:1px solid darkgoldenrod;
+	padding: 10px 30px;
+    color: cornsilk;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+background-color: #fff6f8;
+	color: #000;
+	transition: 0.6s ease;
+}

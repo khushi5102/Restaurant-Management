@@ -1,0 +1,132 @@
+body{ 
+    margin: 0;
+	padding:0;
+    height: 80vh;
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../images/bg5.jpg);
+	background-size: cover;
+    line-height: 50px;
+	background-position: center;
+}
+h1{
+        color: skyblue;
+		margin: 10px;
+        top : 50%;
+        left: 50%;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 50px;
+}
+h2{
+    padding: 5px;
+    color: floralwhite;
+    font-size: 25px;
+    text-align: center;
+}
+h4{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.btn{
+    position: relative;
+	top: 20%;
+    left: 40%;
+	transform: translate(-50%,-50%);
+	border:1px solid #fdc;
+	padding: 0 20px;
+    height: 40px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+
+background-color: #aaa6f8;
+	color: #000;
+	transition: 0.6s ease;
+
+}
+.box{
+    position: relative;
+    left:25%;
+    top: -5%;
+    width: 50%;
+    background: midnightblue;
+}
+.form{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.form input[type="text"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 0.75px solid aliceblue;
+    color: ivory;
+    font-size: 14px;
+}
+.form input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 25px;
+	background: lightblue;
+	color: brown;
+    width: 10%;
+	font-size: 16px;
+	border-radius: 18px;
+	position: center;
+}
+.form input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #fcdcd1;
+    color: #000;
+}
+.form lable
+{
+    color: lightblue;
+    font-style: oblique;
+    font: courier new;
+    font-size: 20px;
+}
+.table-w {
+  background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)); 
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  line-height: 20px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+.table-w th{
+    color: aliceblue;
+    font: arabic;
+    border:2px solid burlywood;
+    font-style: oblique;
+    font-size: 20px;
+}
+.table-w td{
+    color: honeydew;
+    font: courier new;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table-w td input[type="text"]{
+    color: honeydew;
+    font: courier new;
+    border: none;
+    background-color: transparent;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: text;
+}
+

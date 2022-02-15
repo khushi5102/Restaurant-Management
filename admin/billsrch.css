@@ -1,0 +1,156 @@
+body{ 
+    margin: 0;
+	padding:0;
+    height: 80vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg5.jpg);
+	background-size: cover;
+    line-height: 50px;
+	background-position: center;
+}
+h1{
+        color: skyblue;
+		margin: 10px;
+        top : 50%;
+        left: 50%;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+h4{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.button
+{
+     position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.btn{
+   
+	transform: translate(-50%,-50%);
+	border:1px solid #fdc;
+	padding: 0 20px;
+    font-weight: 400;
+    color: #000;
+    height:40px;
+    font-size: 18px;
+    text-align: center;
+    background-color: burlywood;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+
+background-color: #aaa6f8;
+	color: #000;
+	transition: 0.6s ease;
+
+}
+.box
+{
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.25));
+    width: 85%;
+    position: absolute;
+    left: 5%;
+    padding: 10px 20px 5px 20px;
+    align-content: left;
+}
+.form{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+    position: relative;
+    left: 40%;
+    color: beige;
+    font-style: oblique;
+}
+
+.form input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 25px;
+	background: lightblue;
+	color: brown;
+    width: 10%;
+	font-size: 15px;
+	border-radius: 20px;
+	position: relative;
+    left: 7%;
+}
+.form input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #fcdcd1;
+    color: #000;
+}
+.form  input[type="text"]{
+    color: honeydew;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font: courier new;
+    background-color: transparent;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: text;
+}
+
+.form lable
+{
+    color: #1e1ea1;
+    font-style: oblique;
+    font: courier new;
+    font-size: 20px;
+}
+.table
+{
+    position: absolute;
+    top: 56%;
+   
+}
+.table {
+  background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)); 
+  width: 90%;
+  position: relative;
+  top: 50%;
+  line-height: 20px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+.table th{
+    color: aliceblue;
+    font: arabic;
+    border:2px solid burlywood;
+    font-style: oblique;
+    font-size: 20px;
+}
+.table td{
+    color: honeydew;
+    font: courier new;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table td input[type="text"]{
+    color: honeydew;
+    font: courier new;
+    border: none;
+    background-color: transparent;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: text;
+}
