@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding:0;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(workerimg2.jpg);
+	background-position: center;
+	height: 100vh;
+	font-family: sans-serif;
+	background-size: cover;
+    
+}
+.loginbox{
+	width: 350px;
+	height: 500px;
+	background: #000;
+	color: #fff;
+	background-color: darkblue; 
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.login{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% 50px);
+	border-radius: 50px;
+	}
+
+h1{
+		margin: 0;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 30px;
+	}
+p{
+    text-align: center;
+    color: white;
+}
+
+	.form_input{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.form_input input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.form_input input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+    left: 10%;
+    position: absolute;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	position: center;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #fffc07;
+    color: #000;
+}
+.btn{
+	padding: 10px 30px;
+    color: #fff;
+    position: relative;
+    left: 25%;
+    outline: none;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    outline: none;
+    position: relative;
+    left: 30%;
+background-color: transparent;
+	color: #000;
+	transition: 0.6s ease;
+}
+.button
+{
+	position: relative;
+	top: 12%;
+	left: -25%;
+	text-align: center;
+}
+
+.button .btn{
+	border:1px solid darkgoldenrod;
+	padding: 20px 40px;
+    color: cornsilk;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.6s ease;
+}
+.button .btn:hover{
+background-color: #fff6f8;
+	color: #000;
+	transition: 0.6s ease;
+}
+
+

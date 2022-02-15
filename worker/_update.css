@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/home1.jpg);
+    background-position: center;
+    height: 80vh;
+    background-size: cover;
+}
+h1{
+        color: lemonchiffon;
+		margin: 10px;
+        top : 50%;
+        left: 50%;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 50px;
+	}
+.box
+{
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
+    width: 85%;
+    height:250px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    align-content: center;
+}
+.form-box
+{
+    color: aliceblue;
+    font-size: 20px;
+    font-style: oblique;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    width: 50%;
+    height:125px;
+    text-align: center;
+    line-height: 40px;
+}
+.form-box input[type="text"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.form-box input[type="submit"],input[type="button"]
+{
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    background: purple;
+    color: beige;
+    font-size: 16px;
+}
+.form-box input[type="submit"]:hover,input[type="button"]:hover
+{
+	cursor: pointer;
+	background: azure;
+    color: #000; 
+}.form-box input[type="button"],input[type="submit"]
+{
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    background: purple;
+    color: beige;
+    font-size: 16px;
+}
+.form-box input[type="button"]:hover,input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: azure;
+    color: #000; 
+}
+
+.button
+{
+    
+    text-align: center;
+}
+
+.button .btn{
+    border:1px solid #fff;
+    padding: 20px 40px;
+    color: cornsilk;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.6s ease;
+
+}
+.button .btn:hover{
+background-color: #fff6f8;
+    color: #000;
+    transition: 0.6s ease;
+}
+
+
+
+.table
+{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.table-u
+{
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60));
+    line-height: 25px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    width: 100%;
+}
+.table-u th{
+    color: aliceblue;
+    font: arabic;
+    border:0.2px solid burlywood;
+    font-style: oblique;
+    font-size: 20px;
+}
+.table-u td{
+    color: honeydew;
+    font: courier new;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table-u td input[type="text"]{
+    color: honeydew;
+    font: courier new;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+    font-weight: 300;
+}
