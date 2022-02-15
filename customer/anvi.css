@@ -1,0 +1,233 @@
+body{
+	margin: 0;
+	padding:0 ;
+    
+    }
+.start{  
+
+	background-size: cover;
+	background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(cust_home.jpg);
+	background-position: center;
+	height: 100vh;
+    margin-top: 125px;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+	font-family: sans-serif;
+	background-size: cover;
+}
+.start p{
+    color: darksalmon;
+	font-size:20px;
+    font-weight: 500;
+    width: 90%;
+    text-align: center;
+    font: arabic;
+    position: absolute;
+    font-style: oblique;
+    line-height: 25px;
+    text-transform: capitalize; 
+}
+.container {
+   margin: 0px auto;
+    width: 90%;
+    background: #eee;
+  
+   }
+nav{
+    position: fixed;
+    background: linear-gradient(rgba(211,211,211,1),rgba(211,211,211,1));
+    top: 0;
+    width: 100%;
+    height: 125px;
+    background-color: #e1e1e6;
+}
+ul{
+    
+}
+ul li{
+    list-style: none;
+    display: inline block;
+    float:left;
+    line-height: 100px;
+}
+.logo{
+   font-size:50px;
+   margin-right: 10%;
+    color: goldenrod;
+    text-shadow: white;
+    font-weight: 700;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
+    font: courier new;
+    font-style: oblique;
+    padding: 0 15px 0 15px;
+}
+
+ul li a:hover{
+    background: azure;
+    color: coral;
+}
+.active{
+    color: crimson;
+    text-decoration: underline;
+   
+}
+h1{
+        color: lemonchiffon;
+		margin: 10px;
+        top : 50%;
+        left: 50%;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 50px;
+	}
+.btn{
+    position: absolute;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border:1px solid #fdc;
+	padding: 10px 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+
+background-color: #aaa6f8;
+	color: #000;
+	transition: 0.6s ease;
+
+}.btn2{
+    position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border:1px solid #fdc;
+	padding: 10px 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn2:hover{
+
+background-color: #aaa6f8;
+	color: #000;
+	transition: 0.6s ease;
+
+}
+.row
+{
+}
+.about
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.leader{
+    border: 1px  midnightblue;
+    width: 33.33333%;
+    height: 200px;
+    display: inline-block;
+}
+.staff{
+    border: 1.5px solid #1e1e6f;
+    height: 200px;
+    width: 15.98%;
+    display: inline-block;
+    float: left;
+}
+.profile
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	top: -50%;
+	left: calc(50% 50px);
+    position: center;
+	border-radius: 50px;
+}
+.container-wrap{
+    background: black;
+    align-content: center;
+    padding: 0 30px ;
+    float: right;
+    width: 40%;
+    height: 350px;
+     
+}
+.contact{
+    color: aliceblue;
+   text-align: center;
+   position: relative;
+   right:30%;
+}
+.contact h3{
+    font-size: 25px;
+}
+
+
+.form-group input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: aliceblue;
+    text-shadow: white;
+	font-size: 14px;
+    margin: 5px 0 5px;
+}
+.form-group textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: aliceblue;
+    font-size: 14px;
+    margin: 5px 0 5px;
+}
+.form-group input[type="submit"]
+{
+        border:1px solid #ffe;
+	outline: none;
+	height: 40px;
+    width: 15%;
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+    left: 30%;
+}
+.form-group input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: antiquewhite;
+    color: #000;
+}
+.declare-me{ 
+    position: absolute;
+    top: 268%;
+    width: 100%;
+    height: 200px;
+    background: midnightblue;
+}
+.declare-me p{
+     text-decoration: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
